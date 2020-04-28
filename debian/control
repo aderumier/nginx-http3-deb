@@ -21,6 +21,10 @@ Build-Depends: debhelper (>= 10),
                libssl-dev,
                libxslt1-dev,
                po-debconf,
+               cmake,
+               libunwind-dev,
+               golang,
+               cargo,
                quilt,
                zlib1g-dev
 Standards-Version: 4.1.3

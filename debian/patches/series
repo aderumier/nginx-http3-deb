@@ -3,3 +3,4 @@
 ubuntu-branding.patch
 nginx-fix-pidfile.patch
 CVE-2019-20372.patch
+nginx-1.16.patch

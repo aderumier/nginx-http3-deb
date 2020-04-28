@@ -69,6 +69,9 @@ common_configure_flags := \
 			--with-http_realip_module \
 			--with-http_auth_request_module \
 			--with-http_v2_module \
+			--with-http_v3_module \
+			--with-openssl=../quiche/deps/boringssl \
+			--with-quiche=../quiche \
 			--with-http_dav_module \
 			--with-http_slice_module \
 			--with-threads
