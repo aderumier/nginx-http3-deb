@@ -1,3 +1,8 @@
+for build, disable parallel compilation
 
-Documentation is available at http://nginx.org
+DEB_BUILD_OPTIONS=parallel=1 dpkg-buildpackage -rfakeroot -uc -b
+
+
+also, pull quiche submodule in debian/quiche
+
 
